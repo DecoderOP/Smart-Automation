@@ -174,15 +174,11 @@ const Contact = ({ data }) => {
                   </li>
                 </ul>
               </div>
+              <div className="container text-center">
+                <p>&copy;2025 Smart Automations. All rights reserved   </p>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div id="footer">
-        <div className="container text-center">
-          <p>
-            &copy; 2025 Smart Automations. All rights reserved.
-          </p>
         </div>
       </div>
     </div>
