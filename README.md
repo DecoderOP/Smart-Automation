@@ -4,7 +4,7 @@
 
 ###  Clone the repository  
 ```bash
-git clone https://github.com/your-repo/your-project.git
+git clone https://github.com/DecoderOP/Smart-Automation.git
 cd your-project
 
 To Install dependencies : 
