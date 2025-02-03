@@ -6,11 +6,12 @@
 ```bash
 git clone https://github.com/your-repo/your-project.git
 cd your-project
-Install dependencies
+
+To Install dependencies : 
 
 npm install
 
-Run the project locally
+To Run the project :
 
 npm start
 
