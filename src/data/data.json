@@ -104,35 +104,36 @@
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Implementing the automated order processing system has significantly reduced errors in our purchase orders. What used to take hours of manual entry is now completed in minutes, allowing us to focus on scaling our business.\"",
+      "name": "Rajesh K. , Operations Manager"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"We no longer worry about duplicate orders or missing key details in customer requests. The automation has streamlined our workflow, and customer satisfaction has improved with faster order confirmations and updates.\"",
+      "name": "Vikram P. , Supply Chain Director"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"The integration of RPA into our email system has been a game-changer. Now, orders with 'Order' and 'Modify Order' in the subject line are processed automatically, saving us countless hours of manual work and reducing fulfillment delays.\"",
+      "name": "Snehal I. , Manufacturing Lead"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"One of the biggest advantages of this system is the instant error notifications. If an order is incomplete or incorrect, we get an automated alert, allowing us to fix the issue before it impacts production.\"",
+      "name": "Priya S. , Procurement Specialist"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Customer communication has drastically improved with automated acknowledgments and tracking details sent via email. This has strengthened trust with our clients, leading to repeat business and increased sales.\"",
+      "name": "Amit J. , Sales Director"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"The bonus points system for frequent customers is an excellent feature. It encourages repeat orders, and our customers appreciate the added value. The automation has made it seamless for us to reward loyalty.\"",
+      "name": "Neha V. , Customer Experience Manager"
     }
   ],
+
   "Team": [
     {
       "img": "img/team/01.jpg",
