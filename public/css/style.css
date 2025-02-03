@@ -85,13 +85,13 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: 28px;
   font-weight: 700;
-  color: #0099ff;
+  color: #fff;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #0099ff;
+  color: #fff;
   font-size: 16px;
   font-weight: 400;
   padding: 8px 2px;
@@ -216,7 +216,7 @@ a:focus,
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -252,12 +252,12 @@ a:focus,
   font-size: 18px;
   font-weight: 600;
   text-decoration: none;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
   cursor: pointer;
 }
 
 .learn-more-btn:hover {
-  background-color: #4a90e2;
+  background-color: #486df4;
 }
 
 header .intro-text {
@@ -285,7 +285,8 @@ header .intro-text {
 #features {
   padding-top: 80px;
   background: #f6f6f6;
-  padding-top: 6em;
+  padding-top: 5em;
+  padding-bottom: 4em;
 }
 #features i.fa {
   font-size: 38px;
@@ -500,8 +501,8 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: rgba(255, 255, 255, 0.75);
+  background: linear-gradient(to right, #05060a 0%, #081118 50%, #05060a 100%);
+  color: #e0e0e0;
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -518,14 +519,14 @@ header .intro-text {
 #contact .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.5);
   height: 4px;
   width: 60px;
   bottom: 0;
   left: 30px;
 }
 #contact h3 {
-  color: #fff;
+  color: #e0e0e0;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
@@ -544,7 +545,7 @@ header .intro-text {
   border: 2px solid #fff;
 }
 #contact .btn-custom:hover {
-  color: #1f386e;
+  color:  #05060a;
   background: #fff;
 }
 label {
