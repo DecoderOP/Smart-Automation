@@ -5,8 +5,7 @@
 ###  Clone the repository  
 ```bash
 git clone https://github.com/DecoderOP/Smart-Automation.git
-cd your-project
-
+cd Smart-Automation
 To Install dependencies : 
 
 npm install
