@@ -155,14 +155,15 @@
       "job": "Project Manager"
     }
   ],
-  "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
-  },
+ "Contact": {
+    "address": "56 Mount Road, Chennai, India 600002",
+    "phone": "+914832197603",
+    "email": "smartautomations2025@gmail.com",
+    "facebook": "https://www.facebook.com/",
+    "twitter": "https://x.com",
+    "youtube": "https://youtube.com"
+}
+,
   "Features": [
     {
       "icon": "fa fa-comments-o",
