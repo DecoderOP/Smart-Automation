@@ -1,0 +1,189 @@
+{
+  "Header": {
+    "title": "Smart Automation for Effortless Growth",
+    "paragraph": "Streamline operations, eliminate manual tasks, and scale effortlessly with our Zero-Code AI solutions. Automate workflows, reduce processing time by 80%, and integrate seamlessly with your favorite platforms like Gmail, Shopify, and ERP systems. Work smarter, grow faster, and let AI handle the rest!"
+}
+,
+
+  "About": {
+    "paragraph":  "We are a dedicated team passionate about redefining order management through automation. Our mission is to empower businesses with innovative solutions that simplify complex workflows, ensuring effortless operations and enhanced customer satisfaction. With years of expertise in Automation and no-code platforms, we strive to deliver cutting-edge technologies that drive efficiency, accuracy, and growth for businesses of all sizes.",
+    
+      "Why": [
+        "Industry knowledge and expertise",
+        "Advancements in RPA technology",
+        "Tailored to your needs"
+      ],
+      "Why2": [
+        "Easy workflow integration",
+        "Optimize operations and costs",
+        "Proven impactful business results"
+      ]
+    
+    
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+        "icon": "fa fa-cogs",
+        "name": "Automated Order Processing",
+        "text": "Streamline purchase order management with RPA, reducing manual effort and errors."
+    },
+    {
+        "icon": "fa fa-edit",
+        "name": "Order Modification Handling",
+        "text": "Easily modify orders via email. Automatic updates and notifications ensure accuracy."
+    },
+    {
+        "icon": "fa fa-envelope",
+        "name": "Email-Based Order Acknowledgment",
+        "text": "Receive instant confirmation and status updates with automated acknowledgment emails."
+    },
+    {
+        "icon": "fa fa-truck",
+        "name": "Order Tracking & Status Updates",
+        "text": "Track orders seamlessly with real-time updates via email or phone."
+    },
+    {
+        "icon": "fa fa-credit-card",
+        "name": "Payment on Delivery Integration",
+        "text": "Enjoy hassle-free Payment on Delivery options for convenient transactions."
+    },
+    {
+        "icon": "fa fa-star",
+        "name": "Loyalty & Bonus Point System",
+        "text": "Earn and redeem bonus points for discounts and rewards on future purchases."
+    }
+],
+
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Implementing the automated order processing system has significantly reduced errors in our purchase orders. What used to take hours of manual entry is now completed in minutes, allowing us to focus on scaling our business.\"",
+      "name": "Rajesh K. , Operations Manager"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"We no longer worry about duplicate orders or missing key details in customer requests. The automation has streamlined our workflow, and customer satisfaction has improved with faster order confirmations and updates.\"",
+      "name": "Vikram P. , Supply Chain Director"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"The integration of RPA into our email system has been a game-changer. Now, orders with 'Order' and 'Modify Order' in the subject line are processed automatically, saving us countless hours of manual work and reducing fulfillment delays.\"",
+      "name": "Snehal I. , Manufacturing Lead"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"One of the biggest advantages of this system is the instant error notifications. If an order is incomplete or incorrect, we get an automated alert, allowing us to fix the issue before it impacts production.\"",
+      "name": "Priya S. , Procurement Specialist"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Customer communication has drastically improved with automated acknowledgments and tracking details sent via email. This has strengthened trust with our clients, leading to repeat business and increased sales.\"",
+      "name": "Amit J. , Sales Director"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"The bonus points system for frequent customers is an excellent feature. It encourages repeat orders, and our customers appreciate the added value. The automation has made it seamless for us to reward loyalty.\"",
+      "name": "Neha V. , Customer Experience Manager"
+    }
+  ],
+
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Streamlined Order Management",
+      "text": "Effortlessly manage all your purchase orders in one place with our automated order processing system. Eliminate manual tasks, reduce errors, and improve efficiency in handling orders."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Real-Time Updates",
+      "text": "Keep your customers in the loop with instant notifications for order status, modifications, and delivery tracking. Enhance transparency and build trust with reliable communication."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Error-Free Processing",
+      "text": "Our RPA-powered system identifies and rectifies errors automatically, ensuring accurate order fulfillment. Save time and reduce the costs associated with manual error correction."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Customer Engagement",
+      "text": "Increase customer loyalty with bonus points for frequent users, personalized feedback forms, and seamless support. Acknowledge your customers with automated emails to strengthen relationships."
+    }
+  ]
+}
