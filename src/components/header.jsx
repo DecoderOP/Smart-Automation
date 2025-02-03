@@ -34,12 +34,12 @@ export const Header = (props) => {
               >
                 Learn More
               </a> */}
-              <button
+              {/* <button
                 onclick="location.href='#features'"
                 className="learn-more-btn inline-block px-6 py-3 bg-[#5ca9fb] text-white rounded-xl hover:bg-[#4a90e2] text-lg font-semibold transition duration-300 ease-in-out"
               >
                 Learn More
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
