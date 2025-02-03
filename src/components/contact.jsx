@@ -1,46 +1,51 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import React from "react";
 
+// Initial state for the form fields
 const initialState = {
   name: "",
   email: "",
   message: "",
 };
-export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
 
+const Contact = ({ data }) => {
+  const [{ name, email, message }, setState] = useState(initialState);
+  const [feedbackMessage, setFeedbackMessage] = useState(""); // To store success or error messages
+
+  // Handle input changes
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
+
+  // Clear the form fields
   const clearState = () => setState({ ...initialState });
 
+  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
 
-    {
-      /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
-    }
-
+    // Send the form data using emailjs
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
-        e.target,
-        "YOUR_PUBLIC_KEY"
+        "service_rvnhne5", // Your Service ID from EmailJS
+        "template_glnq7fh", // Your Template ID from EmailJS
+        e.target,           // The form element
+        "Yvots6xmVsOYkzXNg" // Your Public Key from EmailJS
       )
       .then(
         (result) => {
-          console.log(result.text);
-          clearState();
+          console.log(result.text); // Log the success response
+          clearState();              // Clear form fields after successful submission
+          setFeedbackMessage("Your message has been sent successfully!"); // Success message
         },
         (error) => {
-          console.log(error.text);
+          console.log(error.text);  // Log the error response
+          setFeedbackMessage("There was an error sending your message. Please try again."); // Error message
         }
       );
   };
+
   return (
     <div>
       <div id="contact">
@@ -49,9 +54,9 @@ export const Contact = (props) => {
             <div className="row">
               <div className="section-title">
                 <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                {/* Adding new text beside 'Get In Touch' */}
+                <p style={{ display: "inline-block", marginLeft: "20px" }}>
+                  We would love to hear from you. Fill out the form and we'll get back to you as soon as possible!
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
@@ -65,9 +70,9 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Name"
                         required
+                        value={name}
                         onChange={handleChange}
                       />
-                      <p className="help-block text-danger"></p>
                     </div>
                   </div>
                   <div className="col-md-6">
@@ -79,9 +84,9 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Email"
                         required
+                        value={email}
                         onChange={handleChange}
                       />
-                      <p className="help-block text-danger"></p>
                     </div>
                   </div>
                 </div>
@@ -93,15 +98,32 @@ export const Contact = (props) => {
                     rows="4"
                     placeholder="Message"
                     required
+                    value={message}
                     onChange={handleChange}
                   ></textarea>
-                  <p className="help-block text-danger"></p>
                 </div>
-                <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
                   Send Message
                 </button>
               </form>
+
+              {/* Display feedback message */}
+              {feedbackMessage && (
+                <div
+                  style={{
+                    marginTop: "20px",
+                    padding: "10px",
+                    backgroundColor: feedbackMessage.includes("error")
+                      ? "#f8d7da" // Red for error
+                      : "#d4edda",  // Green for success
+                    color: feedbackMessage.includes("error")
+                      ? "#721c24"   // Dark red for error
+                      : "#155724",  // Dark green for success
+                  }}
+                >
+                  {feedbackMessage}
+                </div>
+              )}
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
@@ -111,7 +133,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-map-marker"></i> Address
                 </span>
-                {props.data ? props.data.address : "loading"}
+                {data ? data.address : "loading..."}
               </p>
             </div>
             <div className="contact-item">
@@ -119,7 +141,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-phone"></i> Phone
                 </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                {data ? data.phone : "loading..."}
               </p>
             </div>
             <div className="contact-item">
@@ -127,7 +149,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
-                {props.data ? props.data.email : "loading"}
+                {data ? data.email : "loading..."}
               </p>
             </div>
           </div>
@@ -136,17 +158,17 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
+                    <a href={data ? data.facebook : "/"} target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
+                    <a href={data ? data.twitter : "/"} target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
+                    <a href={data ? data.youtube : "/"} target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-youtube"></i>
                     </a>
                   </li>
@@ -162,3 +184,5 @@ export const Contact = (props) => {
     </div>
   );
 };
+
+export default Contact;
