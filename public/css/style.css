@@ -76,22 +76,23 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background: linear-gradient(to right, #05060a 0%, #081118 50%, #05060a 100%);
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
+
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 700;
-  color: #333;
+  color: #0099ff;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
-  font-size: 15px;
+  color: #0099ff;
+  font-size: 16px;
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
@@ -209,45 +210,82 @@ a:focus,
   width: 100%;
   padding: 0;
   background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #38f;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin: 0px;
+  /* margin-top: 0;
+  margin-bottom: 2rem; */
+  text-align: center;
 }
 .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
-  font-size: 22px;
+  color: #e0e0e0;
+  font-size: 24px;
   font-weight: 300;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
+  text-align: center;
+  max-width: 80%; /* Added to improve readability on larger screens */
 }
+.learn-more-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0099ff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.learn-more-btn:hover {
+  background-color: #4a90e2;
+}
+
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
   text-align: center;
 }
+
+/* Added to ensure full-width content */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Center the "Learn More" button */
+.intro-text a {
+  display: inline-block;
+  margin: 0 auto;
+}
+
 /* Features Section */
 #features {
   padding-top: 80px;
   background: #f6f6f6;
+  padding-top: 6em;
 }
 #features i.fa {
   font-size: 38px;
@@ -311,19 +349,19 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
+  background: linear-gradient(to right, #05060a 0%, #081118 50%, #05060a 100%);
+  color: #0099ff;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #fff;
+  color: #e0e0e0;
 }
 #services .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: #e0e0e0;
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -346,12 +384,12 @@ header .intro-text {
   color: #fff;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.6);
 }
 #services .service-desc {
   margin-bottom: 40px;
 }
-/* Portfolio Section */
+/* Portfolio Section
 #portfolio {
   padding: 100px 0;
 }
@@ -400,7 +438,7 @@ header .intro-text {
 
 .hover-bg:hover .hover-text {
   opacity: 1;
-}
+} */
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
