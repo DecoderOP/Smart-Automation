@@ -284,7 +284,7 @@ header .intro-text {
 /* Features Section */
 #features {
   padding-top: 80px;
-  background: #f6f6f6;
+  background: #fafafa;
   padding-top: 5em;
   padding-bottom: 4em;
 }
@@ -500,12 +500,14 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
+  padding: 100px 0 30px;
   background: linear-gradient(to right, #05060a 0%, #081118 50%, #05060a 100%);
   color: #e0e0e0;
+  padding-left:15px;
+  padding-right:15px;
 }
 #contact .section-title {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 #contact .section-title p {
   font-size: 16px;
@@ -545,7 +547,7 @@ header .intro-text {
   border: 2px solid #fff;
 }
 #contact .btn-custom:hover {
-  color:  #05060a;
+  color: #05060a;
   background: #fff;
 }
 label {
@@ -602,7 +604,7 @@ label {
 }
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
-  padding-top: 50px;
+  padding-top: 30px;
   margin-top: 50px;
   text-align: center;
 }
@@ -624,21 +626,10 @@ label {
   color: #608dfd;
   background: #fff;
 }
-/* Footer Section*/
-#footer {
-  background: #f6f6f6;
-  padding: 30px 0;
+#contact .container{
+  padding-bottom:0px;
 }
-#footer p {
-  color: #888;
-  font-size: 14px;
-}
-#footer a {
-  color: #608dfd;
-}
-#footer a:hover {
-  border-bottom: 2px solid #608dfd;
-}
+
 
 @media (max-width: 768px) {
   #about img {
